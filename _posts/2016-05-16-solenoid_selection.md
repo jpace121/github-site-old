@@ -16,7 +16,7 @@ a BJT, a resistor, and a diode to act like a snubber, ala the diagram
 [here](http://playground.arduino.cc/uploads/Learning/solenoid_driver.pdf).
 Alternate circuits replace the BJT with a MOSFET. I've also thought
 about using a relay instead, since I have little experience with relays, and
-would like to learn, but I definitely feel this is overkill for this project.
+would like to learn, but I feel this is overkill for this project.
 I'm not entirely sure which approach I want to take. I'll have a better idea
 after I do the math.
 
