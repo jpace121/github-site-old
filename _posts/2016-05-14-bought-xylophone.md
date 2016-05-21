@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bought Xylophone"
+title:  "Xylophone: Bought Xylophone"
 date:   2016-05-14 19:20:00 -0400
 category: projects
 ---
