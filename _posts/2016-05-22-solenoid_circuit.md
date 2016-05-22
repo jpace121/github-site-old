@@ -60,7 +60,7 @@ while BJTs can be purchased in
 
 As a sanity check, I looked in the super awesome
 [PICAXE Interface Manual](http://www.picaxe.com/docs/picaxe_manual3.pdf) for
-their suggested ciruit. They suggest the same MOSFET circuit I'm using.
+their suggested circuit. They suggest the same MOSFET circuit I'm using.
 In contrast, the Arduino website (and Adafruit) suggest
 [using a BJT.](http://playground.arduino.cc/uploads/Learning/solenoid_driver.pdf)
 
