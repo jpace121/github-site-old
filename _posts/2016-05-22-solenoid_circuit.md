@@ -12,7 +12,9 @@ source about 1.1A, way more than any microcontroller can source, hence
 some sort of interfacing circuit must be used. The two interfacing
 circuits I seriously considered are shown below.
 
-\\ Picture of circuits
+![BJT Circuit](/images/2016-05-22/BJTCircuit.jpg)
+
+![MOSFET Circuit](/images/2016-05-22/MOSFETCircuit.jpg)
 
 Both circuits have a snubber diode next to the solenoid to prevent the kickback
 voltage generated when the solenoid is turned off from frying the rest of
