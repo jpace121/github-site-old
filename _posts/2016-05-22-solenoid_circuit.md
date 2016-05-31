@@ -57,7 +57,7 @@ and much higher at 4.5V. I think I'm going to spend the rest of the week
 Googling stuff about MOSFETs and then repeat the math. This MOSFET may not
 work. Worst case, I already ordered them, so I can always test it... Will
 update this space with my prediction and actual behavior.**
-**UPDATE 5/20/2016: Even though the data sheet shows an infinite $$R_{DS}$$ at
+**UPDATE 5/30/2016: Even though the data sheet shows an infinite $$R_{DS}$$ at
 3.3V, the listed threshold voltage is 2.35V, so I think it should work. All
 the parts have arrived from Adafruit, so I'll test it all this week. I've also
 gone ahead and dropped a little bit of cash to pick up some more MOSFETs and
