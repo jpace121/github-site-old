@@ -52,16 +52,12 @@ acts as if a constant resistor was added between the source and the drain.
 [For the MOSFET I am looking at](https://www.adafruit.com/products/355), the
 constant resistance is $$8.7m\Omega$$. **UPDATE: I messed up here.
 This $$R_{DS}$$ is at 10V $$V_{GS}$$ not 5V. The graph in the data sheet
-makes it looks like the resistance will be inifinite at 3.3V $$V_{GS}$$ (?)
-and much higher at 4.5V. I think I'm going to spend the rest of the week
-Googling stuff about MOSFETs and then repeat the math. This MOSFET may not
-work. Worst case, I already ordered them, so I can always test it... Will
-update this space with my prediction and actual behavior.**
+makes it looks like the resistance will be inifinite at 3.3V $$V_{GS}$$ (?).**
 **UPDATE 5/30/2016: Even though the data sheet shows an infinite $$R_{DS}$$ at
 3.3V, the listed threshold voltage is 2.35V, so I think it should work. All
 the parts have arrived from Adafruit, so I'll test it all this week. I've also
 gone ahead and dropped a little bit of cash to pick up some more MOSFETs and
-a set of BJTs to add to my collection.**
+a set of BJTs to add to my part collection.**
 The voltage drop can be found using
 Ohm's Law ($$V = IR$$). With a current of 1.1A, the voltage drop will only be
 0.010V, much better than the voltage drop using the BJT. Because of this, I've
