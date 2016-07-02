@@ -6,10 +6,9 @@ category: projects
 ---
 
 I tested the different interface circuits today that I've described
-previously. I will write up a detailed analysis of the results later.
-In short, I basically see very little difference between the different
-types of MOSFETs I purchased. I did not test the BJT circuit at all, since
-the MOSFET circuit worked nicely.
+previously. In short, I basically see very little difference between
+the different types of MOSFETs I purchased. I did not test the BJT
+circuit at all, since the MOSFET circuit worked nicely.
 
 I did run into one problem. My solenoid is currently "sticking", as in
 when the voltage switches to zero, instead of going up, the slug stays
@@ -25,3 +24,12 @@ few milliseconds, if that.
 
 Once I get the "sticking" issue sorted out, I'm going to move forward with the
 design. I also want to try to BJT interface circuit for the heck of it.
+
+**UDPATE 7/07/16** My post on /r/Arduino was kindly answered. The poster
+agreed with me that I may have blown the soleoid by keeping it engaged
+too long. They also warned that I may not have been giving the solenoid
+enough current. This makes sense to me, especially considering the power
+supply I am currently using does not seem to react well to sudden burst
+draws of current. I need to investigate alternate power supplies. I also
+want to see if a BJT performs better than the MOSFET, but mainly for the
+heck of it...
