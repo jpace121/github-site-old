@@ -3,21 +3,16 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <h1>Welcome!</h1>
+  <p>This is the homepage of James Pace.</p>
+  <p>
+    I am a Master's Student at Florida State University studying
+    Mechanical Engineering, with a focus in Controls and Robotics.
+    My primary interest is in making big things move intelligently.
+  </p>
+  <p>
+    Want to reach out? I can be found on
+    <a href="https://www.linkedin.com/in/jpace121"> LinkedIn </a>, and can be
+    emailed at jpace121@gmail.com.
+  </p>
 </div>
