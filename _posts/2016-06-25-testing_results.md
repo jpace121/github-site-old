@@ -33,3 +33,10 @@ supply I am currently using does not seem to react well to sudden burst
 draws of current. I need to investigate alternate power supplies. I also
 want to see if a BJT performs better than the MOSFET, but mainly for the
 heck of it...
+
+**UPDATE 8/06/16** I tried the BJT circuit today and it was horrible. Solenoid
+clearly wasn't getting enough current to overcome the force from the spring.
+I'm definitely sticking with the MOSFET circuit. Also tried the other solenoid,
+and everythign worked fine. I think the issues I was seeing earlier were
+primarily due to issues with solenoid I was testing with breaking when I kept
+it engaged too long.
