@@ -99,4 +99,12 @@ host the webstuff, but otherwise send the mbed commands via serial. From a
 hardware side, this simplifies stuff since I can connect everything to the
 mbed. From a software side, this just makes it important that I have
 the concerns split well, such that I can flip between using buttons and
-serial without too much concern.
+serial without too much concern. On the hardware side, I need to make sure
+I have some sane plan to connect an extra board at some point.
+
+## Connectors ##
+
+The solenoids come with 2 pin PH connectors at the end. For standardization
+purposes, I'm going to stick with PH connectors everywhere else in the circuit
+as well. I'll be ordering these from Digikey or Mouser, pending what else
+I decide I want to buy. 
