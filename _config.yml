@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Dot Asterisk
+title: .*
 email: jpace121@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
- Random thoughts of jpace121.
+ Blog of James Pace.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.github.io/jpace121" # the base hostname & protocol for your site
+url: "http://jpace121.github.io" # the base hostname & protocol for your site
 github_username:  jpace121
 
 # Build settings
