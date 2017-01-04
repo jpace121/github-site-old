@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Small Walking Robot Idea"
-date:   2016-01-03 21:00:00 -0400
+date:   2017-01-03 21:00:00 -0400
 category: idea
 ---
 
